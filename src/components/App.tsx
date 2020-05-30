@@ -6,13 +6,15 @@ import Router from '../router';
 import configureStore from '../store/configureStore';
 import { getSetting } from '../reducers';
 import { darkTheme, lightTheme } from '../utils/themes';
+import Navbar from './Navbar';
 
 const useStyles = makeStyles({
   root: {
     flex: 1,
+    padding: 0,
+    margin: 0,
   },
   content: {
-    flexGrow: 1,
     height: '100vh',
     padding: 0,
     margin: 0,
@@ -36,6 +38,7 @@ const Themed = () => {
     <ThemeProvider theme={theme}>
       <div className={classes.root}>
         <div className={classes.content}>
+          <Navbar />
           <Router />
         </div>
       </div>
