@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "@darksun/redux-commons": "^1.0.4",
+    "@deck.gl/aggregation-layers": "^8.1.8",
+    "@deck.gl/google-maps": "^8.1.8",
+    "@deck.gl/layers": "^8.1.8",
+    "@deck.gl/react": "^8.1.8",
     "@material-ui/core": "^4.10.0",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -25,6 +29,7 @@
     "react-dom": "^16.13.1",
     "react-i18n": "^1.0.1",
     "react-icons": "^3.10.0",
+    "react-map-gl": "^5.2.5",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
@@ -59,6 +64,8 @@
     ]
   },
   "devDependencies": {
+    "convert-csv-to-json": "^0.0.15",
+    "papaparse": "^5.2.0",
     "poetic": "^1.5.0",
     "redux-devtools-extension": "^2.13.8"
   }

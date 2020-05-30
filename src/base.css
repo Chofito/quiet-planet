@@ -5,3 +5,8 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.deck-container {
+  width: 200px;
+  height: 200px;
+}
